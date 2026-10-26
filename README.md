@@ -8,6 +8,20 @@ By [transposal.app](https://transposal.app)
 > TDevTools processes everything **on your own machine**. Your JSON, XML, files, tokens, keys and certificates are **never uploaded**, stored on a server or sent to analytics. There is no account and no tracking.
 > The app connects to the internet only when **you** ask it to: when you load a URL, send a test request to your API, or fetch a server's certificate. All other tools work fully offline.
 
+## Screenshots
+
+**JSON → JSON Schema**: infer a schema from sample data, with the full tool list in the sidebar.
+
+![JSON to JSON Schema](screenshots/json-to-schema.png)
+
+**API Tester**: send requests and inspect the response as a tree, table or raw text.
+
+![API Tester](screenshots/api-tester.png)
+
+**Certificate Inspector**: fetch a server's certificate chain and check every certificate and signature.
+
+![Certificate Inspector](screenshots/certificate-inspector.png)
+
 ---
 
 ## Download
@@ -21,7 +35,7 @@ Get the latest version from the **[Releases page](https://github.com/siddiquin/T
 | **Windows** 10 / 11, 64-bit (most PCs) | `TDevTools-Setup-<version>-x64.exe` |
 | **Windows** 10 / 11, ARM (e.g. Surface Pro X, Snapdragon laptops) | `TDevTools-Setup-<version>-arm64.exe` |
 | **Windows**, no installation (portable) | `TDevTools-Portable-<version>.exe` |
-| **Linux**, 64-bit (x86_64) | `TDevTools-<version>-x64.AppImage` |
+| **Linux**, 64-bit (x86_64) | `TDevTools-<version>-x86_64.AppImage` |
 | **Linux**, ARM64 | `TDevTools-<version>-arm64.AppImage` |
 
 Not sure which Mac you have? Open the Apple menu → **About This Mac**. "Chip: Apple M…" means Apple Silicon; "Processor: Intel…" means Intel.
@@ -96,7 +110,7 @@ The installer installs for your user account only, so you don't need administrat
 
 An AppImage is a single file that runs on most distributions without installation.
 
-1. Download `TDevTools-<version>-x64.AppImage`, or `arm64` for ARM machines.
+1. Download `TDevTools-<version>-x86_64.AppImage`, or `arm64` for ARM machines.
 2. Make it executable. Either:
    - right-click the file → **Properties → Permissions** → tick **Allow executing file as program**, or
    - run this in a terminal:
@@ -105,7 +119,7 @@ An AppImage is a single file that runs on most distributions without installatio
      chmod +x TDevTools-*.AppImage
      ```
 
-3. Double-click it, or run `./TDevTools-<version>-x64.AppImage`.
+3. Double-click it, or run `./TDevTools-<version>-x86_64.AppImage`.
 
 **If it doesn't start:** some distributions (for example Ubuntu 22.04 and later) need the FUSE 2 library:
 
