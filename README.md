@@ -4,6 +4,8 @@
 
 By [transposal.app](https://transposal.app)
 
+**Read this in:** [English](README.md) · [Español](README.es.md) · [Français](README.fr.md) · [Deutsch](README.de.md) · [Türkçe](README.tr.md) · [日本語](README.ja.md) · [简体中文](README.zh-CN.md) · [हिन्दी](README.hi.md)
+
 > **🔒 Runs locally. Your data never leaves your computer.**
 > TDevTools processes everything **on your own machine**. Your JSON, XML, files, tokens, keys and certificates are **never uploaded**, stored on a server or sent to analytics. There is no account and no tracking.
 > The app connects to the internet only when **you** ask it to: when you load a URL, send a test request to your API, or fetch a server's certificate. All other tools work fully offline.
